@@ -131,7 +131,20 @@ export const ProjectItemContainer = styled.div`
     width: 100%;
   }
 `;
-
+export const Section = styled.div`
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  justify-content: ${(props) =>
+    props.Full ? "space-between" : "space-around"};
+  align-content: stretch;
+  flex-wrap: wrap;
+  @media ${(props) => props.theme.tablet} {
+    width: 100%;
+  }
+`;
 export const Image = styled.img`
   border-radius: 5px;
   width: 100%;
@@ -166,7 +179,7 @@ export const ProjectBody = styled.p`
 
 export const LinksContainer = styled.div`
   display: flex;
-  margin-top: 30px;
+  margin-top: 15px;
 `;
 
 export const LinkImage = styled.a`
@@ -184,7 +197,7 @@ export const LinkImage = styled.a`
 `;
 
 export const ProjectDetails = styled.h6`
-  margin-top: 40px;
+  margin-top: 15px;
   color: ${(props) => props.theme.primary};
   font-weight: 600;
   line-height: 24px;

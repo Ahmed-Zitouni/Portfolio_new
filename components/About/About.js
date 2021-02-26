@@ -23,13 +23,13 @@ export default function About(props) {
     <Wrapper id="Skills">
       <Container>
         <Subtitle>WHAT I DO</Subtitle>
-        <Title>I specialize in Front End Web Development</Title>
+        <Title>I specialize on Web Development</Title>
         <AboutContainer>
           <LeftContainer>
             <Paragraph>
-              Hey! I'm Ahmed, a front end developer based in New York, NY. I am
-              passionate about creating amazing experiences on the web whether
-              it be a website, application or anything else in between.
+              I'm a front end developer based in New York, NY. I am passionate
+              about creating amazing experiences on the web whether it be a
+              website, application or anything else in between.
               <br />
               <br />
               On every project I work on, I strive to build products that

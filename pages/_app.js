@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
         <title>Ahmed Zitouni's Portfolio</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         {/* <script>
           {(function (h, o, t, j, a, r) {
             h.hj =
