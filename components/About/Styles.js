@@ -111,10 +111,7 @@ export const AboutContainer = styled.div`
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  align-items: flex-start;
   @media ${(props) => props.theme.tablet} {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -125,7 +122,7 @@ export const AboutContainer = styled.div`
 `;
 
 export const LeftContainer = styled.div`
-  width: 50%;
+  width: 47%;
   @media ${(props) => props.theme.tablet} {
     width: 100%;
   }
@@ -145,7 +142,6 @@ export const List = styled.ul`
   display: -ms-grid;
   display: grid;
   width: 80%;
-  margin-top: 20px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -188,7 +184,7 @@ export const RightContainer = styled.div`
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
+  width: 47%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;

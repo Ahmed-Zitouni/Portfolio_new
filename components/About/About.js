@@ -37,10 +37,12 @@ export default function About(props) {
               <br />
               Here are a few technologies I&#x27;ve been working with recently:
             </Paragraph>
+          </LeftContainer>
+          <RightContainer>
             <List>
               <ListItem>
                 <BulletPoint src="/Bullet-Point.svg" />
-                <ListItemText>React</ListItemText>
+                <ListItemText>React / React Native</ListItemText>
               </ListItem>
               <ListItem>
                 <BulletPoint src="/Bullet-Point.svg" />
@@ -48,28 +50,29 @@ export default function About(props) {
               </ListItem>
               <ListItem>
                 <BulletPoint src="/Bullet-Point.svg" />
-                <ListItemText>Javascript (ES6+)</ListItemText>
-              </ListItem>
-              <ListItem>
-                <BulletPoint src="/Bullet-Point.svg" />
                 <ListItemText>Next.JS</ListItemText>
               </ListItem>
               <ListItem>
                 <BulletPoint src="/Bullet-Point.svg" />
-                <ListItemText>Shopify Liquid</ListItemText>
+                <ListItemText>Javascript (ES6+)</ListItemText>
               </ListItem>
               <ListItem>
                 <BulletPoint src="/Bullet-Point.svg" />
-                <ListItemText>React Native</ListItemText>
+                <ListItemText>GraphQL</ListItemText>
+              </ListItem>
+              <ListItem>
+                <BulletPoint src="/Bullet-Point.svg" />
+                <ListItemText>SQL / NoSQL</ListItemText>
+              </ListItem>
+              <ListItem>
+                <BulletPoint src="/Bullet-Point.svg" />
+                <ListItemText>Node.JS</ListItemText>
+              </ListItem>
+              <ListItem>
+                <BulletPoint src="/Bullet-Point.svg" />
+                <ListItemText>AWS</ListItemText>
               </ListItem>
             </List>
-          </LeftContainer>
-          <RightContainer>
-            <ImageContainer>
-              <Image src="" loading="lazy" />
-              <ImageOverlay />
-              <ImageCornerBlock />
-            </ImageContainer>
           </RightContainer>
         </AboutContainer>
       </Container>

@@ -43,7 +43,7 @@ export default function NavBar(props) {
       <NavOverlay />
       <Container>
         <LogoTag>
-          <Logo src="/Group-2-3.svg" />
+          <Logo src="/Initals.svg" />
         </LogoTag>
 
         <Navigation burger={isOpen} isMobile={isMobile}>

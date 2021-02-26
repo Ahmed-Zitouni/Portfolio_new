@@ -65,7 +65,7 @@ export const Container = styled.div`
 
 export const LeftContainer = styled.div`
   width: 80%;
-  margin-top: 60px;
+  margin-top: 20px;
   margin-right: auto;
   @media ${(props) => props.theme.tablet} {
     display: -webkit-box;

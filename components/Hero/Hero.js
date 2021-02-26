@@ -28,8 +28,9 @@ export default function Hero(props) {
             I&#x27;m a Front End Developer
           </Title>
           <Paragraph>
-            I specialize in developing exceptionally modern websites,
-            applications and everything in between!
+            I have over a year of front end experience, specializing in
+            developing exceptionally modern websites, applications and
+            everything in between!
           </Paragraph>
           <ButtonsContainer>
             <OutlineButton href="" target="_blank">

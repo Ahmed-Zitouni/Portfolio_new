@@ -155,7 +155,13 @@ export const ProjectBody = styled.p`
   color: ${(props) => props.theme.text};
   font-size: 14px;
   margin-top: 10px;
-  line-height: 20px;
+  line-height: 1.2;
+  width: 90%;
+  height: 80px;
+  @media ${(props) => props.theme.tablet} {
+    width: 100%;
+    height: unset;
+  }
 `;
 
 export const LinksContainer = styled.div`
@@ -182,4 +188,10 @@ export const ProjectDetails = styled.h6`
   color: ${(props) => props.theme.primary};
   font-weight: 600;
   line-height: 24px;
+  width: 90%;
+  height: 50px;
+  @media ${(props) => props.theme.tablet} {
+    height: unset;
+    width: 100%;
+  }
 `;

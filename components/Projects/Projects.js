@@ -38,7 +38,7 @@ export default function Projects(props) {
               functions for merchants based on the apps key functionality..
             </ProjectBody>
             <ProjectDetails>
-              React - Next.js - Javascript - HTML/CSS - Shopify Liquid - AWS
+              React - Next.js - HTML/CSS - Javascript - Graphql - NoSQL - AWS
             </ProjectDetails>
             <LinksContainer>
               {/* <LinkImage>
@@ -54,42 +54,52 @@ export default function Projects(props) {
             </LinksContainer>
           </ProjectItemContainer>
           <ProjectItemContainer>
-            <ImageTag href="" target="_blank">
+            <ImageTag href="https://shopflow.vercel.app/" target="_blank">
               <Image src="/Shopflow.png" loading="lazy" alt="" />
             </ImageTag>
-            <ProjectTitle>Shopflow Website</ProjectTitle>
+            <ProjectTitle>Shopflow</ProjectTitle>
             <ProjectBody>
-              Built a modern responsive landing page called Shopflow using React
-              and Next.js.
+              Built a modern responsive ecommerce website called Shopflow using
+              React and Next.js. All typical eccomerce features are built in
+              such as
             </ProjectBody>
             <ProjectDetails>
-              React - Next.js - Javascript - HTML/CSS
+              React - Next.js - HTML/CSS - Javascript
             </ProjectDetails>
             <LinksContainer>
-              <LinkImage href="" target="_blank">
+              <LinkImage
+                href="https://github.com/Ahmed-Zitouni/Shopflow"
+                target="_blank"
+              >
                 <AiFillGithub />
               </LinkImage>
-              <LinkImage href="" target="_blank">
+              <LinkImage href="https://shopflow.vercel.app/" target="_blank">
                 <FiExternalLink />
               </LinkImage>
             </LinksContainer>
           </ProjectItemContainer>
           <ProjectItemContainer>
-            <ImageTag href="" target="_blank">
+            <ImageTag href="https://buildpage.vercel.app/" target="_blank">
               <Image src="/Buildpage.png" loading="lazy" alt="" />
             </ImageTag>
-            <ProjectTitle>OutClass</ProjectTitle>
-            <ProjectBody></ProjectBody>
+            <ProjectTitle>Buildpage</ProjectTitle>
+            <ProjectBody>
+              Built a modern responsive landing page called Shopflow using React
+              and Next.js.
+            </ProjectBody>
             <ProjectDetails>
-              React Native - Javascript - Puppateer - AWS
+              React - Next.js - HTML/CSS - Javascript
             </ProjectDetails>
             <LinksContainer>
-              <LinkImage href="" target="_blank">
+              <LinkImage
+                href="https://github.com/Ahmed-Zitouni/Buildpage"
+                target="_blank"
+              >
                 <AiFillGithub />
               </LinkImage>
-              {/* <LinkImage>
-      <FiExternalLink />
-      </LinkImage> */}
+              <LinkImage href="https://buildpage.vercel.app/" target="_blank">
+                <FiExternalLink />
+              </LinkImage>
             </LinksContainer>
           </ProjectItemContainer>
         </ProjectsContainer>
