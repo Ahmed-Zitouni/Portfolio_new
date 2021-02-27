@@ -157,6 +157,9 @@ export const List = styled.ul`
   -ms-grid-rows: auto auto;
   grid-template-rows: auto auto;
   padding-left: 0px;
+  @media ${(props) => props.theme.tablet} {
+    width: 100%;
+  }
 `;
 
 export const ListItem = styled.li`

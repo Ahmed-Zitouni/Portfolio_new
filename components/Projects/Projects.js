@@ -89,8 +89,8 @@ export default function Projects(props) {
               <ProjectTitle>Buildpage</ProjectTitle>
               <ProjectBody>
                 Built a modern responsive website called Buildpage using React
-                and Next.js. It's fully built out displaying a CMS and its
-                features across multiple pages.
+                and Next.js. A fully built out website displaying a software
+                solution and its features across multiple pages.
               </ProjectBody>
               <ProjectDetails>
                 React - Next.js - HTML/CSS - Javascript

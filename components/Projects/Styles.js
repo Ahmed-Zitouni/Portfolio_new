@@ -161,7 +161,7 @@ export const ProjectTitle = styled.h3`
   color: ${(props) => props.theme.text};
   font-size: 32px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 30px;
 `;
 
 export const ProjectBody = styled.p`
@@ -179,7 +179,7 @@ export const ProjectBody = styled.p`
 
 export const LinksContainer = styled.div`
   display: flex;
-  margin-top: 15px;
+  margin-top: 20px;
 `;
 
 export const LinkImage = styled.a`
@@ -197,14 +197,15 @@ export const LinkImage = styled.a`
 `;
 
 export const ProjectDetails = styled.h6`
-  margin-top: 15px;
   color: ${(props) => props.theme.primary};
   font-weight: 600;
   line-height: 24px;
   width: 90%;
   height: 50px;
+  margin-top: 15px;
   @media ${(props) => props.theme.tablet} {
     height: unset;
     width: 100%;
+    margin-top: 30px;
   }
 `;
