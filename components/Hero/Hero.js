@@ -15,8 +15,12 @@ import {
   SocialImg,
 } from "./Styles";
 import { AiFillGithub } from "react-icons/ai";
+import { hotjar } from "react-hotjar";
 
 export default function Hero(props) {
+  useEffect(() => {
+    hotjar.initialize("2268499", 6);
+  }, []);
   return (
     <Wrapper>
       <Container>

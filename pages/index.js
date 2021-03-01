@@ -8,13 +8,11 @@ import Projects from "../components/Projects/Projects";
 export default function Landing() {
   return (
     <>
-      <body class="body">
-        <NavBar display={true} />
-        <Hero />
-        <About />
-        <Projects />
-        <Footer />
-      </body>
+      <NavBar display={true} />
+      <Hero />
+      <About />
+      <Projects />
+      <Footer />
     </>
   );
 }
