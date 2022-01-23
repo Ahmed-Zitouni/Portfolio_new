@@ -33,7 +33,7 @@ export default function Hero(props) {
           </Title>
           <Paragraph>
             I have over 2 years of professional experience, specializing in
-            web development with Full Stack experience.  
+            web development with Full Stack knowledge.
             I have built exceptionally modern websites, applications and
             everything in between!
           </Paragraph>
