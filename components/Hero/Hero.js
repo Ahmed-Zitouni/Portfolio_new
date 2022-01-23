@@ -29,11 +29,12 @@ export default function Hero(props) {
           <Title>
             I am <Name>Ahmed Zitouni</Name>
             <br />
-            I&#x27;m a Front End Developer
+            I&#x27;m a Software Engineer
           </Title>
           <Paragraph>
-            I have over a year of front end experience, specializing in
-            developing exceptionally modern websites, applications and
+            I have over 2 years of professional experience, specializing in
+            web development with work in both front and backend development.  
+            I have built exceptionally modern websites, applications and
             everything in between!
           </Paragraph>
           <ButtonsContainer>
